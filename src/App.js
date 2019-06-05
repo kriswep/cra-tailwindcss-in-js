@@ -20,7 +20,7 @@ class App extends Component {
           </p>
           <a
             className="App-link"
-            css={tw`text-blue-light`}
+            css={tw`text-blue-300`}
             href="https://reactjs.org"
             target="_blank"
             rel="noopener noreferrer"
