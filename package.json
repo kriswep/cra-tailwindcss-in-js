@@ -23,7 +23,7 @@
     "eject": "react-scripts eject",
     "cy:open": "cypress open",
     "cy:run": "cypress run",
-    "cy:updateSnapshots": "cypress:run --env updateSnapshots=true"
+    "cy:updateSnapshots": "cypress run --env updateSnapshots=true"
   },
   "eslintConfig": {
     "extends": "react-app"
