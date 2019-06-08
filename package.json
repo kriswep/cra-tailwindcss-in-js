@@ -12,16 +12,18 @@
     "cypress": "^3.3.1",
     "cypress-image-snapshot": "^3.1.1",
     "eslint-plugin-cypress": "^2.2.1",
+    "start-server-and-test": "^1.9.1",
     "tailwind.macro": "^1.0.0-alpha.10"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "cypress open",
+    "test:ci": "start-server-and-test start http://localhost:3000 cy:run",
     "eject": "react-scripts eject",
-    "cypress:open": "cypress open",
-    "cypress:run": "cypress run",
-    "cypress:updateSnapshots": "cypress:run --env updateSnapshots=true"
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:updateSnapshots": "cypress:run --env updateSnapshots=true"
   },
   "eslintConfig": {
     "extends": "react-app"

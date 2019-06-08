@@ -8,6 +8,7 @@
 # testing
 /coverage
 /cypress/screenshots
+/cypress/videos
 __diff_output__
 
 # production
