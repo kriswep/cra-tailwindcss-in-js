@@ -9,19 +9,9 @@ action "install" {
   args = "install"
 }
 
-action "Test" {
-  uses = "actions/npm@e7aaefed7c9f2e83d493ff810f17fa5ccd7ed437"
-  needs = ["install"]
-  runs = "npm"
-  args = "test"
-  env = {
-    CI = "true"
-  }
-}
-
 action "Build" {
   uses = "actions/npm@e7aaefed7c9f2e83d493ff810f17fa5ccd7ed437"
-  needs = ["Test"]
+  needs = ["install"]
   runs = "npm"
   args = "run build"
 }
