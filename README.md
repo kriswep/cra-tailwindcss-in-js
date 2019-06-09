@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+[![CircleCI](https://circleci.com/gh/kriswep/cra-tailwindcss-in-js.svg?style=svg)](https://circleci.com/gh/kriswep/cra-tailwindcss-in-js)
+
 It shows how you could setup [Tailwind CSS](https://tailwindcss.com/), a utility-first css framework, in an CRA environment with styled components and babel macros. Read more about the setup steps and benefits using [Tailwind and css-in-js combined](https://wetainment.com/articles/tailwind-css-in-js/).
 
 *Updated to work with Tailwind version 1!*
