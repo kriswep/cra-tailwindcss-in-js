@@ -6,7 +6,7 @@
     "react": "16.8.6",
     "react-dom": "16.8.6",
     "react-scripts": "3.0.1",
-    "styled-components": "4.2.1"
+    "styled-components": "4.3.2"
   },
   "devDependencies": {
     "cypress": "3.4.1",
