@@ -5,7 +5,7 @@
   "dependencies": {
     "react": "16.14.0",
     "react-dom": "16.14.0",
-    "react-scripts": "3.4.0",
+    "react-scripts": "3.4.4",
     "styled-components": "5.2.0"
   },
   "devDependencies": {
