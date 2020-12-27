@@ -12,7 +12,7 @@
     "cypress": "6.1.0",
     "cypress-image-snapshot": "4.0.0",
     "eslint-plugin-cypress": "2.11.2",
-    "start-server-and-test": "1.11.6",
+    "start-server-and-test": "1.11.7",
     "tailwind.macro": "1.0.0-alpha.10"
   },
   "scripts": {
