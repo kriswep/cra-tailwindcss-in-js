@@ -9,7 +9,7 @@
     "styled-components": "5.3.0"
   },
   "devDependencies": {
-    "cypress": "7.5.0",
+    "cypress": "7.7.0",
     "cypress-image-snapshot": "4.0.1",
     "eslint-plugin-cypress": "2.11.3",
     "start-server-and-test": "1.12.5",
